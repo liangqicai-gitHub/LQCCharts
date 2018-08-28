@@ -10,7 +10,8 @@ Pod::Spec.new do |s|
   s.name             = 'LQCCharts'
   s.version          = '0.1.0'
   s.summary          = 'Custom some styles base on Charts'
-
+  s.swift_version    = '4.1'
+ 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -28,4 +29,5 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/liangqicai-gitHub/LQCCharts.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.source_files = 'LQCCharts/Classes/**/*'
+# s.frameworks = 'UIKit', 'MapKit'
 end
