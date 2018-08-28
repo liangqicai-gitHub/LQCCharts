@@ -7,11 +7,19 @@
 //
 
 import UIKit
+import LQCCharts
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let x = LQCChartsTest()
+        x.lqcc_printTest()
+        
+        
+        let xxx = LineChartView()
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
