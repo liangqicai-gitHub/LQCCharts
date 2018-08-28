@@ -29,5 +29,5 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/liangqicai-gitHub/LQCCharts.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.source_files = 'LQCCharts/Classes/**/*'
-# s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
 end
