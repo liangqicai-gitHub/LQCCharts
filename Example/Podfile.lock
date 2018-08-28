@@ -1,0 +1,16 @@
+PODS:
+  - LQCCharts (0.1.0)
+
+DEPENDENCIES:
+  - LQCCharts (from `../`)
+
+EXTERNAL SOURCES:
+  LQCCharts:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LQCCharts: c51148e44b7c4356fb5a823d19291eaf9edb992d
+
+PODFILE CHECKSUM: b2b211ebdd74d3f4544adf502af56f374a658361
+
+COCOAPODS: 1.5.3

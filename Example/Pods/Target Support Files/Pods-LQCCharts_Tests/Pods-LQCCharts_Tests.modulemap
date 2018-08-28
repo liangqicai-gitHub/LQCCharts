@@ -1,0 +1,6 @@
+framework module Pods_LQCCharts_Tests {
+  umbrella header "Pods-LQCCharts_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

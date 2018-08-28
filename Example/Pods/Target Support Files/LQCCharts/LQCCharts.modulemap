@@ -1,0 +1,6 @@
+framework module LQCCharts {
+  umbrella header "LQCCharts-umbrella.h"
+
+  export *
+  module * { export * }
+}
