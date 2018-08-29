@@ -30,4 +30,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source_files = 'LQCCharts/Classes/**/*'
   s.frameworks = 'UIKit'
+  #s.dependency 'YYKit', '= 1.0.9'
 end

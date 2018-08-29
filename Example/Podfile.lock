@@ -1,5 +1,5 @@
 PODS:
-  - LQCCharts (0.1.0)
+  - LQCCharts (0.1.1)
 
 DEPENDENCIES:
   - LQCCharts (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LQCCharts: c51148e44b7c4356fb5a823d19291eaf9edb992d
+  LQCCharts: 0cfacddfe244c18e5cc58739d8802bcd55430b30
 
 PODFILE CHECKSUM: b2b211ebdd74d3f4544adf502af56f374a658361
 
