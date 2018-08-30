@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LQCCharts'
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
   s.summary          = 'Custom some styles base on Charts'
   s.swift_version    = '4.1'
  

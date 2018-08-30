@@ -58,6 +58,14 @@ class ViewController: UIViewController {
         }
         
         
+        let xAixRender = CQFAEXAixRender.init(viewPortHandler: _chartView!.xAxisRenderer.viewPortHandler,
+                                              xAxis: _chartView!.xAxisRenderer.axis as? XAxis,
+                                              transformer: _chartView!.xAxisRenderer.transformer)
+        
+        _chartView?.xAxisRenderer = xAixRender
+        
+        _chartView?.xAxis.cqfae_labelTextColors = [UIColor.red,UIColor.blue,UIColor.yellow,UIColor.orange,UIColor.green,UIColor.brown]
+        
     }
     
     
@@ -71,6 +79,7 @@ class ViewController: UIViewController {
         xAxis?.drawGridLinesEnabled = false
         xAxis?.labelPosition = .bottom
         xAxis?.yOffset = 16
+//        xAxis?.labelTextColor
         
         xAxis?.valueFormatter = CQFAETitlesFormatter()
         let titles = ["上海","北京","深圳","广州","杭州","厦门"]
